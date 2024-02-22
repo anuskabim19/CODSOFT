@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo">Mount-me</div>
+    <video autoplay muted loop id="bgVideo">
+        <source src="assets/bv1.mp4" type="video/mp4">
+        
+    </video>
+    
+    <nav>
+        <ul>
+            <li ><a href="#about-us">About us</a></li>
+            <li ><a href="#our-service">Our Services</a></li>
+            <li><a href="#profile">Offers</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="book-now"><a href="register.html" class="button">Register</a></li>
+        </ul>
+
+        
+
+    </nav>
+    <div class="container">
+        <h1 class="reservation-title">Make a Reservation</h1>
+        <form id="reservation-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="options">Options:</label>
+                <select id="options" name="options" required>
+                    <option value="economy">Economy</option>
+                    <option value="premium">Premium</option>
+                    <option value="deluxe">Deluxe</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <h1 class="title-contact">Contact Us</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:anuskadangal@gmail.com">anuskadangal@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon linkedin-icon"
+        />
+        <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/phone.png"
+          alt="phone icon"
+          class="icon phone-icon"
+        />
+        <p>+977-9808127399</p>
+      </div>
+    </div>
+ 
+  <footer>
+    <p>Copyright &#169; 2024 Anuska Dangal. All Rights Reserved.</p>
+  </footer> 
+  
+</body>
+</html>
